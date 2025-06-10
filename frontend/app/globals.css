@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8fafc; /* Um cinza bem claro da paleta do Tailwind */
+  color: #0f172a; /* Um cinza escuro para o texto */
+}
