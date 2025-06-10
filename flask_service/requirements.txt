@@ -1,0 +1,11 @@
+# --- Core Flask Framework ---
+Flask==3.0.3
+gunicorn==22.0.0          # Production-grade server to run Flask inside Docker
+
+# --- Database & ORM ---
+SQLAlchemy==2.0.30        # ORM for interacting with the database
+psycopg2-binary==2.9.9    # PostgreSQL driver for Python
+
+# --- API Communication & Environment ---
+requests==2.32.3          # To make HTTP requests to the FastAPI service
+python-dotenv==1.0.1      # For managing environment variables locally
